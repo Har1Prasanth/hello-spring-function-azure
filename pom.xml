@@ -27,10 +27,10 @@
         <spring.cloud.function.dependencies>4.0.0</spring.cloud.function.dependencies>
 
         <!-- customize those five properties. The functionAppName should be unique across Azure -->
-        <functionResourceGroup>my-spring-function-resource-group</functionResourceGroup>
-        <functionAppServicePlanName>my-spring-function-service-plan</functionAppServicePlanName>
-        <functionAppName>my-spring-function</functionAppName>
-        <functionAppRegion>westeurope</functionAppRegion>
+        <functionResourceGroup>1-6fa8d8df-playground-sandbox</functionResourceGroup>
+        <functionAppServicePlanName>ASP-16fa8d8dfplaygroundsandbox-8291</functionAppServicePlanName>
+        <functionAppName>springfunctionapps</functionAppName>
+        <functionAppRegion>eastus</functionAppRegion>
         <functionPricingTier>Y1</functionPricingTier>
 
         <start-class>com.example.DemoApplication</start-class>
